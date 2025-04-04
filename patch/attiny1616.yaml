@@ -1,0 +1,11 @@
+_svd: ../svd/attiny1616.svd
+
+# _include:
+#   - common/attiny-xmega/common.yaml
+#   - common/attiny-xmega/1-series.yaml
+#   - common/usart.yaml
+
+_add:
+  TCA0:
+    description: 16-bit Timer/Counter Type A
+    name: TCA0
